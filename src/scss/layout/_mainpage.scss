@@ -45,11 +45,15 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
   .list {
     padding: 15px;
     color: white;
     .li {
       padding: 5px;
+    }
+    .liName {
+      font-weight: 700;
     }
   }
 }
