@@ -1,9 +1,16 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(253, 213, 161);
+  background-color: rgb(56, 56, 56);
 }
 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+}
 .form {
   padding: 20px;
   display: flex;
@@ -23,12 +30,31 @@
   }
   .button {
     border-radius: 10px;
-    width: 7rem;
+    width: 10rem;
     height: 2rem;
     margin-top: 15px;
-    background-color: rgb(238, 164, 75);
+    background-color: rgb(75, 200, 238);
     border-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
   }
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .list {
+    padding: 15px;
+    color: white;
+    .li {
+      padding: 5px;
+    }
+  }
+}
+
+.icon {
+  color: tomato;
+  cursor: pointer;
 }
