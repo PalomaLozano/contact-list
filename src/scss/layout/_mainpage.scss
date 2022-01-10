@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(253, 213, 161);
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+
+  .same {
+    margin: 4px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 236, 213);
+    border-color: whitesmoke;
+    border-radius: 6px;
+  }
+  .button {
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 15px;
+    background-color: rgb(238, 164, 75);
+    border-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+  }
+}
