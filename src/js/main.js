@@ -45,11 +45,16 @@ const crearContacto = (parentNode, contacto, db) => {
   icon.classList.add('material-icons', 'icon');
 
   divContacto.appendChild(nombreContacto);
-  numeroContacto.appendChild(numeroContacto);
-  direccionContacto.appendChild(direccionContacto);
-  icon.appendChild(icon);
+  divContacto.appendChild(numeroContacto);
+  divContacto.appendChild(direccionContacto);
+  divContacto.appendChild(icon);
 
   parentNode.appendChild(divContacto);
+
+  icon.onclick = () => {
+    db.removeItem(contacto.id);
+    window.location.href = '/';
+  };
 };
 
 const cargarContactos = (db, parentNode) => {
